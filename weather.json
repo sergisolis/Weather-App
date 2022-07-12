@@ -1,0 +1,30 @@
+{
+  "coord": { "lon": 2.159, "lat": 41.3888 },
+  "weather": [
+    { "id": 801, "main": "Clouds", "description": "few clouds", "icon": "02d" }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 302.06,
+    "feels_like": 303.88,
+    "temp_min": 298.88,
+    "temp_max": 307.93,
+    "pressure": 1021,
+    "humidity": 59
+  },
+  "visibility": 10000,
+  "wind": { "speed": 4.12, "deg": 130 },
+  "clouds": { "all": 20 },
+  "dt": 1657279120,
+  "sys": {
+    "type": 2,
+    "id": 18549,
+    "country": "ES",
+    "sunrise": 1657254329,
+    "sunset": 1657308416
+  },
+  "timezone": 7200,
+  "id": 3128760,
+  "name": "Barcelona",
+  "cod": 200
+}

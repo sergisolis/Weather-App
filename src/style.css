@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+h1{
+  font-size: 6rem;
+}
+
+.app{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.bg1{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+.bg1:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: url('./data/china.jpg') no-repeat center center/cover;
+}
+
+.bg2{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+.bg2:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: url('./data/rail.jpg') no-repeat center center/cover;
+}
+
+.bg3{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+.bg3:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: url('./data/mountain.jpg') no-repeat center center/cover;
+}
+
+.bg4{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+.bg4:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: url('./data/berry.jpg') no-repeat center center/cover;
+}
+
+.app .search{
+  text-align: start;
+  padding-left: 5rem;
+  padding-top: 3rem;
+}
+
+.app input{
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background:rgba(255, 255, 255, 0.2) ;
+  color: #f8f8f8;
+}
+
+::placeholder{
+  color: #f8f8f8;
+}
+
+.container{
+  max-width: 700px;
+  height: 700px;
+  padding: 0 1rem;
+  padding-left: 5rem;
+  padding-top: 3rem;
+  position: relative;
+  top: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app .top{
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.app .description{
+  position: relative;
+  right: -90%;
+  transform-origin: 0 0;
+  transform: rotate(270deg);
+}
+
+.app .bottom {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.bold{
+  font-weight: 700;
+}
